@@ -7,7 +7,7 @@ Marp
 
 ## Usage
 
-### Install
+### Installation
 
 :arrow_forward: **[Download latest archives from release page.](https://github.com/yhatt/marp/releases)**
 
@@ -15,7 +15,7 @@ Marp
 - **Mac OS X**: Mount `*.*.*-Marp-darwin-x64.dmg`, D&D `Marp` to `Applications` and run it from Applications folder / Launchpad.
 - **Linux**: Unpack `*.*.*-Marp-linux-[arch].tar.gz` and run `Marp`.
 
-### How to write slides?
+### How are slides created?
 
 Split slides by horizontal ruler `---`. It's very simple. Please refer to [example.md](https://raw.githubusercontent.com/yhatt/marp/master/example.md).
 
@@ -40,7 +40,7 @@ npm install
 npm start
 ```
 
-### Create release builds
+### Creating release builds
 
 ```
 gulp release
@@ -56,7 +56,7 @@ If you want to build for Windows in other platforms, please install [Wine](https
 
 ##### OSX
 
-To build for Darwin is only supported in OSX. Please install [appdmg](https://github.com/LinusU/node-appdmg) to create archive (`.dmg`) for Darwin release.
+Building for Darwin is only supported in OSX. Please install [appdmg](https://github.com/LinusU/node-appdmg) to create archive (`.dmg`) for Darwin release.
 
 ```
 npm install appdmg
@@ -64,10 +64,10 @@ npm install appdmg
 
 ###### Notices
 
-- **Don't add development dependency of `appdmg` to `package.json`.** The release task would fail in other platforms.
+- **Don't add development dependency of `appdmg` to `package.json`.** The release task would fail on other platforms.
 - *`gulp-appdmg` is no longer in use since v0.0.4.*
 
 ## Licenses
 
 Copyright &copy; 2016 [Yuki Hattori](https://github.com/yhatt).
-This software released under the [MIT License](https://github.com/yhatt/marp/blob/master/LICENSE).
+This software is released under the [MIT License](https://github.com/yhatt/marp/blob/master/LICENSE).
